@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 217, 217);
+
+
+}
+
+
+
+.nav {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+}
+
+.rest {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu li {
+    list-style: none;
+    padding: 5% 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+.search {
+    background-color: rgb(255, 255, 255);
+}
+
+.search input {
+    border-radius: 15px;
+    height: 2em;
+    background-color: rgb(248, 248, 248);
+}
+
+.icons img {
+    height: 1.2em;
+    background-color: rgb(255, 255, 255);
+    object-fit: cover;
+}
+
+.icons {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.pictures {
+    width: 52%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.images {
+    width: 48%;
+}
+
+.images img {
+    /* height: 360px; */
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.info {
+    background-color: rgb(221, 217, 217);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
+
+.rating {
+    height: 15%;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating img {
+    height: 50%;
+    width: 10%;
+    object-fit: cover;
+}
+
+div p {
+    margin-top: 5px;
+}
+
+
+.sizes button {
+    width: fit-content;
+    margin: 3px;
+    padding: 3px 5px;
+}
+
+.addTo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55px;
+    background-color: rgb(221, 217, 217);
+
+}
+
+.add {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 20%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addToCart {
+    background-color: red;
+}
+
+.addToWishList {
+    background-color: rgb(255, 255, 255);
+}
+
+.deliveryOptions {
+    height: 250px;
+    background-color: rgb(221, 217, 217);
+
+
+}
+
+.dev {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pincode input {
+    height: 170%;
+    width: 30%;
+    border-radius: 5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.productDescription {
+    height: 260px;
+    background-color: rgb(221, 217, 217);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.customerReviews img {
+    height: 150px;
+    object-fit: cover;
+    width: 48%;
+}
+
+.user {
+    height: 500px;
+    border: 3px solid greens;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.user1 {
+    height: 100px;
+    width: 80%;
+    border: 3px solid yellow;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.user1:hover {
+    transform: scale(1.1);
+}
+
+.user1 p {
+    background-color: rgb(255, 255, 255);
+}
+
+.flex {
+    height: 50%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.click {
+    height: 90%;
+    width: 10%;
+    border-radius: 50%;
+    background: url(client.png);
+    background-size: cover;
+}
+
+.name {
+    background-color: rgb(255, 255, 255);
+}
+
+.footImages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footImages img {
+    height: 400px;
+
+    object-fit: cover;
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    nav {
+
+        height: 3rem;
+        background-color: rgb(255, 255, 255);
+        /* display: flex; */
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        /* width: 40%; */
+        background-color: rgb(255, 255, 255);
+    }
+
+    .rest {
+
+        display: none;
+
+    }
+
+    /* .menu {
+        display: none;
+
+    } */
+
+
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+    .pictures {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .images {
+        width: 48%;
+    }
+
+    .images img {
+
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .info {
+        background-color: rgb(221, 217, 217);
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+
+    }
+
+    .rating {
+        height: 15%;
+        width: 30%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rating img {
+        height: 50%;
+        width: 10%;
+        object-fit: cover;
+    }
+
+    div p {
+        margin-top: 5px;
+    }
+
+
+    .sizes button {
+        width: fit-content;
+        margin: 3px;
+        padding: 3px 5px;
+    }
+
+    .addTo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 75px;
+        background-color: rgb(221, 217, 217);
+
+    }
+
+    .add {
+        border: 1px solid black;
+        border-radius: 17px;
+        width: 46%;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .addToCart {
+        background-color: red;
+    }
+
+    .addToWishList {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .deliveryOptions {
+        height: 250px;
+        background-color: rgb(221, 217, 217);
+
+
+    }
+
+    .dev {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .pincode input {
+        height: 170%;
+        width: 30%;
+        border-radius: 5rem;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .productDescription {
+        height: 260px;
+        background-color: rgb(221, 217, 217);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .customerReviews img {
+        height: 150px;
+        object-fit: cover;
+        width: 48%;
+    }
+
+    .user {
+        height: 500px;
+        border: 3px solid greens;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .user1 {
+        height: 100px;
+        width: 90%;
+        border: 3px solid yellow;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+
+    }
+
+    .flex {
+        height: 50%;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .click {
+        height: 90%;
+        width: 10%;
+        border-radius: 50%;
+        background: url(client.png);
+        background-size: cover;
+    }
+
+    .foot {
+        width: 100%;
+    }
+
+    .footImages {
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .footImages img {
+        height: 150px;
+        width: 45%;
+        object-fit: cover;
+
+    }
+
+
+
+}
